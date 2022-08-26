@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.wrapper_header {
+    background-image: url(./img/backgroundHeader.png);
+    padding-top: 45px;
+    padding-bottom: 95px;
+}
+
+.container_big {
+    width: 1325px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block_header {
+    width: 50%;
+}
+
+.block_header.wrapper_nav{
+padding-top: 13px;
+}
+
+.logo img {
+    width: 263px;
+    height: 57px;
+    margin-top: 10px;
+}
+
+.wrapper_header_contact {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 22px;
+    font-size: 17px;
+    color:#42200B;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.wrapper_header_contact img {
+    width: 41px;
+    height: 33px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+
+nav ul li {
+    font-size: 21px;
+    font-weight: 200;
+    color: #3d2514;
+letter-spacing: 4px;
+    margin-right: 51px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+nav ul li:hover {
+    color: #DF1C1C;
+}
+
+nav ul li:last-child {
+    margin-right: 0px;
+}
+
+.block_header.burger{
+    width: 48%;
+    margin-top: 145px;
+}
+
+.border {
+    display: inline-block;
+    border: 2px dashed #42200B;
+    padding: 8px 20px;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 114px;
+margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+.h1_h2_header {
+    line-height: 1;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
+    text-shadow: #FFE8BB 5px 5px;
+    color: #42200B;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.block_header.burger_image {
+    width: 52%;
+    position: relative;
+    text-align: center;
+}
+
+.burgerHeader {
+    width: 100%;
+    height: 90%;
+    margin-top: 75px;
+}
+
+
+
+.sales {
+    width: 173px;
+    height: 173px;
+    border-radius: 50%;
+    background-color: #DF1C1C;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    top: 73%;
+}
+
+.border_sales {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px dashed #FFFFFF;
+    padding: 10px;
+}
+
+.wrapper_prise {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.border_sales .prise {
+    font-size: 70px;
+}
+
+.border_sales p {
+    color: #FFFFFF;
+    font-size: 34px;
+}
