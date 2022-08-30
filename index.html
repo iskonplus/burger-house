@@ -13,6 +13,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
 </head>
 
 <body>
@@ -136,13 +142,77 @@
             </div>
 
         </div>
-
-
           </article>
+
+                 <!-- -----------swiper---------------- -->
+
+                 <article class="container_big block_swiper" >
+                    <div class="wrapper_swiper">
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                
+                                <div class="wrapper_content_swiper">
+                                    <div class="block_content_swiper first">
+                                        <h3>Discover</h3>
+                                        <h2>Upcoming Events</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    </div>
+                                    <div class="block_content_swiper">
+                                        <img src="./img/Burger_slider.png" alt="photo burger">
+                                    </div>
+                                </div>
+                              </div>
+
+                              <div class="swiper-slide">
+                                <div class="wrapper_content_swiper">
+                                    <div class="block_content_swiper first">
+                                        <h3>Discover</h3>
+                                        <h2>Upcoming Events</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    </div>
+                                    <div class="block_content_swiper">
+                                        <img src="./img/Burger_slider.png" alt="photo burger">
+                                    </div>
+                                </div>
+                              </div>
+
+                              <div class="swiper-slide">                       <div class="wrapper_content_swiper">
+                                <div class="block_content_swiper first">
+                                    <h3>Discover</h3>
+                                    <h2>Upcoming Events</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                </div>
+                                <div class="block_content_swiper">
+                                    <img src="./img/Burger_slider.png" alt="photo burger">
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                    
+                    </div>
+
+                 </article>
 
     </main>
 
 </body>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
 <script src="script.js"></script>
 
 </html>

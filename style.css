@@ -306,3 +306,84 @@ p {
     font-family: 'Alfa Slab One';
     text-transform: uppercase;
 }
+
+/* -- -----------swiper---------------- -- */
+
+.block_swiper{
+    width: 1305px;
+    margin: auto;
+}
+
+.wrapper_swiper {
+    position: relative;
+    height: 490px;
+    background: #fff;
+    font-size: 14px;
+    color: #000;
+    margin: 95px 0px;
+    padding: 25px 25px;
+    box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.269);
+  }
+ 
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.swiper-pagination{
+
+    text-align: start !important;
+    margin-left: 37px;
+    margin-bottom: 19px;
+}
+
+.swiper-pagination-bullet{
+    width: 17px !important;
+    height: 17px !important;
+}
+
+:root {
+    --swiper-theme-color: #FFC135 !important;
+}
+
+.wrapper_content_swiper{
+display: flex;
+width: 100%;
+height: 100%;
+cursor: pointer;
+}
+
+.block_content_swiper{
+    width: 50%;
+}
+
+.block_content_swiper h3,
+.block_content_swiper h2,
+.block_content_swiper p{
+    text-align: start;
+}
+
+.block_content_swiper h3{
+    font-size: 30px;
+}
+
+.block_content_swiper.first{
+    margin: 30px 40px;
+}
