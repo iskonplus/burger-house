@@ -285,21 +285,21 @@ p {
 
 }
 
-.block_content_shose_enjoy h3{
+.block_content_shose_enjoy h3 {
     font-size: 37px;
     margin-bottom: 5px;
-   color: #42200B;
+    color: #42200B;
 }
 
-.block_content_shose_enjoy p{
+.block_content_shose_enjoy p {
     font-size: 17px;
     text-transform: lowercase;
-     color: #42200B;
-     margin-bottom: 35px;
+    color: #42200B;
+    margin-bottom: 35px;
 
 }
 
-.block_content_shose_enjoy .button{
+.block_content_shose_enjoy .button {
     background-color: #DF1C1C;
     color: #FFFFFF;
     padding: 10px 30px;
@@ -309,7 +309,7 @@ p {
 
 /* -- -----------swiper---------------- -- */
 
-.block_swiper{
+.block_swiper {
     width: 1305px;
     margin: auto;
 }
@@ -323,38 +323,38 @@ p {
     margin: 95px 0px;
     padding: 25px 25px;
     box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.269);
-  }
- 
-  .swiper {
+}
+
+.swiper {
     width: 100%;
     height: 100%;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
 
-.swiper-pagination{
+.swiper-pagination {
 
     text-align: start !important;
     margin-left: 37px;
     margin-bottom: 19px;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     width: 17px !important;
     height: 17px !important;
 }
@@ -363,27 +363,27 @@ p {
     --swiper-theme-color: #FFC135 !important;
 }
 
-.wrapper_content_swiper{
-display: flex;
-width: 100%;
-height: 100%;
-cursor: pointer;
+.wrapper_content_swiper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
 }
 
-.block_content_swiper{
+.block_content_swiper {
     width: 50%;
 }
 
 .block_content_swiper h3,
 .block_content_swiper h2,
-.block_content_swiper p{
+.block_content_swiper p {
     text-align: start;
 }
 
-.block_content_swiper h3{
+.block_content_swiper h3 {
     font-size: 30px;
 }
 
-.block_content_swiper.first{
+.block_content_swiper.first {
     margin: 30px 40px;
 }
