@@ -387,3 +387,80 @@ p {
 .block_content_swiper.first {
     margin: 30px 40px;
 }
+
+/* ----------Book your table----------------- */
+
+.container_big.book_your_table{
+    width: 1440px;
+    position: relative;
+}
+
+.wrapper_book_your_table{
+    width: 785px;
+    margin: 125px auto 151px;
+    text-align: center;
+}
+
+.wrapper_book_your_table h3 {
+    font-size: 30px;
+    margin-bottom: 1px;
+    color: #42200B;
+    letter-spacing: 2px;
+
+}
+
+.wrapper_book_your_table h2 {
+    font-size: 50px;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #42200B;
+    letter-spacing: 3px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+form input{
+    width: 49%;
+    margin-bottom: 27px;
+    padding: 18px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+
+.button_submit{
+    background-color: #DF1C1C;
+    border:none;
+    cursor: pointer;
+    color:#FFFFFF;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+}
+.img_burger_book,
+.img_plate_book,
+.img_bottle{
+    position: absolute;
+
+}
+
+.img_burger_book{
+    top: -22%;
+}
+
+.img_plate_book{
+    top: 32%;
+    right:0;
+}
+
+.img_bottle{
+    top: 26%;
+    left: 7%;
+}
