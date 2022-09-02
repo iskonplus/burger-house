@@ -464,3 +464,13 @@ form input{
     top: 26%;
     left: 7%;
 }
+
+/* -----------------footer------------------ */
+
+.wrapper_footer{
+    width: 100%;
+    padding-bottom: 20%;
+    background: url(./img/Design_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
